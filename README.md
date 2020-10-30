@@ -1,9 +1,9 @@
 # To get total page count
-```javascrpt
+```javascript
 this.rawValue = xfa.layout.pageCount();
 ```
 # To get current page number
-```javascrpt
+```javascript
 if(xfa.layout.page(this) == 1){
 // do some stuff on first page
 }else{
